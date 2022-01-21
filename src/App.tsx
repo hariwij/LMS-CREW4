@@ -1,4 +1,3 @@
-import "./styles/root/App.scss";
 import Landing from "./LandingPage";
 
 const App = () => {
