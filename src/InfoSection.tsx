@@ -10,9 +10,7 @@ const InfoSection: React.FC = () => {
     return(
    
         <Container fluid>
-            <Row>
-                <Col><h1>Detail Section</h1></Col>
-            </Row>
+
             <Row>
                 <Col><BookList /></Col>
                 <Col><AuthorList/></Col>
