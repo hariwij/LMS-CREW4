@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 const BookForm : React.FC = () => {
     return(
-        <h1>Book Form</h1>
+        <h1>Create Book</h1>
     )
 }
 

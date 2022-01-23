@@ -12,9 +12,13 @@ const InfoSection: React.FC = () => {
         <Container fluid>
 
             <Row>
+            
                 <Col><BookList /></Col>
                 <Col><AuthorList/></Col>
             </Row>
+            
+            <hr />
+
             <Row>
                 <Col><BookForm /></Col>
                 <Col><AuthorForm/></Col>

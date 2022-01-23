@@ -2,7 +2,18 @@ import { Container } from "react-bootstrap";
 
 const BookList: React.FC = () => {
     return(
-        <h1>Book List</h1>
+        <div>
+            <h1>Books</h1>
+            <ol>
+                <li>Book 1 title</li>
+                <li>Book 2 title</li>
+                <li>Book 3 title</li>
+                <li>Book 4 title</li>
+
+            </ol>
+        </div>
+      
+
     )
 }
 
