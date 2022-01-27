@@ -6,6 +6,7 @@ import BookList from "./components/BookList";
 
 
 
+
 const InfoSection: React.FC = () => {
     return(
    
@@ -13,8 +14,8 @@ const InfoSection: React.FC = () => {
 
             <Row>
             
-                <Col><BookList /></Col>
-                <Col><AuthorList/></Col>
+                <Col xs={12} md={6} > </Col>
+                <Col xs={12} md={6}></Col>
             </Row>
             
             <hr />
