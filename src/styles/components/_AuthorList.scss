@@ -1,20 +1,26 @@
 .author-section{
   margin: 2rem 3.5rem;
+
   h1{
     font-size: 3.2rem;
     font-weight: 500;
     padding: 12px 0px;
-    border-bottom: 2px solid #000;
-    margin-bottom: 3rem;
+    border-bottom: 3px solid #000;
+    margin-bottom: 2.8rem;
   }
   ol{
     padding-left: 0;
+    margin-bottom: 2rem;
   }
   ol > li {
+    line-height: 3.8rem;
     font-size: 2rem;
     font-weight: 500;
     display: flex;
     flex-direction: row;
+  }
+  ol > li:hover {
+    background-color: #EFEFEF;
   }
   ol > li > .txtContainer {
     width: 100%;
