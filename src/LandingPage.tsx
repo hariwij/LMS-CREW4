@@ -13,6 +13,7 @@ const LandingPage = () => {
       <Col lg={6} md={12} sm={12}><BookList /></Col>
       <Col lg={6} md={12} sm={12}><AuthorList/></Col>
       <Col lg={6} md={12} sm={12}><BookForm/></Col>
+      <Col lg={6} md={12} sm={12}><AuthorForm/></Col>
     </Row>
   );
 };
