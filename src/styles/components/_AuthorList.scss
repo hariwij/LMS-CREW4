@@ -9,42 +9,46 @@
     margin-bottom: 2.8rem;
   }
   ol{
-    padding-left: 0;
+    padding-left: 2.2rem;
     margin-bottom: 2rem;
   }
   ol > li {
     line-height: 3.8rem;
     font-size: 2rem;
     font-weight: 500;
-    display: flex;
-    flex-direction: row;
+    display: list-item;
   }
   ol > li:hover {
     background-color: #EFEFEF;
   }
-  ol > li > .txtContainer {
+  ol > li > .list-box{
+    display: flex;
+    flex-direction: row;
+  }
+
+  ol > li > .list-box > .txtContainer {
     width: 100%;
   }
 
-  ol > li > .btnContainer {
+  ol > li > .list-box > .btnContainer {
     width: fit-content;
     right: 0px;
     display: none;
     flex-direction: row;
     align-items: center;
   }
-  ol > li:hover > .btnContainer {
+  ol > li:hover > .list-box > .btnContainer {
     display: flex;
   }
-  ol > li > .btnContainer > * {
+  ol > li > .list-box > .btnContainer > * {
     width: 50px;
     height: 50px;
     padding: 0px 10px;
   }
-  ol > li > .btnContainer > .btnEdit {
+  ol > li > .list-box > .btnContainer > .btnEdit {
     color: orange;
   }
-  ol > li > .btnContainer > .btnDelete {
+  ol > li > .list-box >  .btnContainer > .btnDelete {
     color: red;
   }
   .addItmContainer {

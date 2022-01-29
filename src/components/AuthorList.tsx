@@ -9,39 +9,47 @@ const AuthorList: React.FC = () => {
             <h1>Authors</h1>
             <ol>
                 <li>
-                    <div className="txtContainer">
-                        Author 1
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
-                    </div>
-                </li>
-                <li>
-                    <div className="txtContainer">
-                    Author 2
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Author 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div className="txtContainer">
-                        Author 3
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Author 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div className="txtContainer">
-                        Author 4
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Author 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+                </li>
+                <li>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Author 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
             </ol>

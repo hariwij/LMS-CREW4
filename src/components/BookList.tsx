@@ -10,39 +10,48 @@ const BookList = () => {
             <h1>Books</h1>
             <ol>
                 <li>
-                    <div className="txtContainer">
-                    Book 1
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Book 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+
+                </li>
+                <li>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Book 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div className="txtContainer">
-                        Book 2
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
-                    </div>
-                </li>
-                <li>
-                    <div className="txtContainer">
-                        Book 3
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Book 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div className="txtContainer">
-                        Book 4
-                    </div>
-                    <div className="btnContainer">
-                        <Edit className="btnEdit" />
-                        <Trash2 className="btnDelete"/>
+                    <div className='list-box'>
+                        <div className="txtContainer">
+                            Book 1
+                        </div>
+                        <div className="btnContainer">
+                            <Edit className="btnEdit" />
+                            <Trash2 className="btnDelete"/>
+                        </div>
                     </div>
                 </li>
             </ol>
